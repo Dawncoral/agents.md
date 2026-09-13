@@ -43,6 +43,12 @@ const REPOS: RepoCardProps[] = [
     language: "C++",
   },
 ];
+  {
+    name: "Dawncoral/wallaby-agent-rules",
+    description:
+      "Starter template treating AGENTS.md as a token budget: forbidden list, three-tier memory.",
+    language: "Markdown",
+  },
 
 interface ExampleListSectionProps {
   contributorsByRepo?: Record<string, { avatars: string[]; total: number }>;
