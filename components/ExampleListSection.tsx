@@ -50,7 +50,6 @@ const REPOS: RepoCardProps[] = [
   },
 ];
 
-
 interface ExampleListSectionProps {
   contributorsByRepo?: Record<string, { avatars: string[]; total: number }>;
   standalone?: boolean; // if false wraps with its own section
